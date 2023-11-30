@@ -2,6 +2,10 @@ import React from "react";
 import "About.css";
 
 function About() {
-  return <div className="about"></div>;
+  return (
+    <>
+      <button>About</button>
+    </>
+  );
 }
 export default About;

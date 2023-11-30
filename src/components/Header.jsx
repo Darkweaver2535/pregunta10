@@ -2,6 +2,10 @@ import React from "react";
 import "Header.css";
 
 function Header() {
-  return <div className="about"></div>;
+  return (
+    <>
+      <button>Header</button>
+    </>
+  );
 }
 export default Header;
